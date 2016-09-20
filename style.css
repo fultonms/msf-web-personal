@@ -1,0 +1,33 @@
+a:hover{
+  text-decoration:none;
+}
+.pure-menu-link{
+ color:white;
+}
+div{
+  display: block;
+}
+
+.home-menu {
+    background: #3366cc;
+    padding: 0.3em;
+    text-align: left;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10)
+}
+
+.pure-menu.pure-menu-fixed {
+    /* Fixed menus normally have a border at the bottom. */
+    border-bottom: none;
+    /* I need a higher z-index here because of the scroll-over effect. */
+    z-index: 4;
+}
+
+.home-menu .pure-menu-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.home-menu .pure-menu-selected a {
+    color: white;
+}
