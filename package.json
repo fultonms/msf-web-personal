@@ -1,0 +1,33 @@
+{
+  "name": "msf-web-personal",
+  "version": "1.0.0",
+  "description": "Personal website for Michael Scott Fulton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fultonms/msf-web-personal.git"
+  },
+  "author": "Michael Fulton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fultonms/msf-web-personal/issues"
+  },
+  "homepage": "https://github.com/fultonms/msf-web-personal#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "helmet": "^2.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
