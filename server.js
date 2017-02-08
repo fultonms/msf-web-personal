@@ -24,11 +24,19 @@ router.get("/resume",function(req,res){
 })
 
 router.get("/style.css", function(req,res){
-  res.sendFile(__dirname +"/style.css")
+  res.sendFile(__dirname + "/content/style.css")
 })
 
 router.get("/favicon.ico", function(req, res){
-  res.sendFile(__dirname +"/favicon.ico")
+  res.sendFile(__dirname + "/content/favicon.ico")
+})
+
+router.get("/github.png", function(req, res){
+  res.sendFile(__dirname + "/content/github.png")
+})
+
+router.get("/linkedin.png", function(req, res){
+  res.sendFile(__dirname + "/content/linkedin.png")
 })
 
 app.use("/",router);
